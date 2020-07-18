@@ -2,7 +2,7 @@
 # News Scraper module
 
 Extracts data directly from the main Ecuadorian media press outlets (web sites).
-It can extract single news (given a news url) or complete sets of news (given a provider name).
+It can extract single news (given a news URL) or complete sets of news (given a provider name).
 
 ## Initial setup
 

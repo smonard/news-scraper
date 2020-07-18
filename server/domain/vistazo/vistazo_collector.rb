@@ -16,7 +16,7 @@ module Domain
     private
 
     def infer_urls(url)
-      (0..10).map do |num| # max 340
+      (0..50).map do |num| # max 340
         page = @client.get_page "#{url}#{num}"
         page.xpath("//div[@class = 'panel-panel panel-col']//h3/a/@href").map(&:text)
       end.flatten.uniq
